@@ -78,13 +78,8 @@
 .nav .option .option-4 img{
     width: 100%;
 }
-.nav .option .option-4 img:focus{
-   outline: none;
-   background-color: transparent;
-   
-}
 .nav .option .option-1:hover , .option-3:hover{
-    border: 2px solid rgb(0, 217, 255);
+    background-color: rgb(0, 217, 255);
     color: white;
 }
 .sidebar{
@@ -156,7 +151,7 @@
 .sidebar-btn{
     font-size: 40px;
     font-weight: normal;
-    color: rgb(0, 217, 255);
+    color: rgba(0, 217, 255);
 }
 .name{
     cursor: pointer;
