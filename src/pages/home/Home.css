@@ -1,0 +1,70 @@
+.body{
+    background-color: rgb(236, 236, 236);
+}
+.main{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    color: black;
+    height: fit-content;
+    background-color: rgb(236, 236, 236);
+    margin-top: 20px;
+}
+.main .profile{
+    position: sticky;
+    top: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .post{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .followers{
+    position: sticky;
+    top: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:600px) {
+    .main .profile{
+        display:none;
+    }
+    .main .post{
+        width: 100%;
+    }
+    .main .followers{
+        display:none;
+    }
+}
+@media (min-width:600px) {
+    .main .profile{
+        width: 40%;
+    }
+    .main .post{
+        width: 60%;
+    }
+}
+@media (min-width:950px) {
+    .main .profile{
+        width: 30%;
+    }
+    .main .post{
+        width: 60%;
+    }
+    .main .followers{
+        width: 30%;
+    }
+}
+@media (max-width:949px) {
+    .main .followers{
+        display:none;
+    }
+}

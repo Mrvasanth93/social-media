@@ -1,0 +1,209 @@
+.profile-page {
+   width: 95%;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+   justify-content: center;
+   border-radius: 10px;
+   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.212),
+      -1px -1px 3px rgba(0, 0, 0, 0.212);
+}
+
+.profile-page .profile-top {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 70px;
+}
+
+.profile-page .profile-top .profile-top-left {
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   width: 90%;
+   height: 70%;
+}
+
+.profile-page .profile-top .profile-top-left .profile-top-left-left {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   background-color: aliceblue;
+}
+
+.profile-page .profile-top .profile-top-left .profile-top-left-left h4 {
+   font-weight: bolder;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   height: fit-content;
+}
+
+.profile-page .profile-top .profile-top-left .profile-top-left-right {
+   height: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: left;
+   margin-left: 10px;
+}
+
+.profile-page .profile-top .profile-top-left .profile-top-left-right .name {
+   margin: 0;
+   padding: 0;
+   height: 25px;
+}
+
+.profile-page .profile-top .profile-top-left .profile-top-left-right .about {
+   margin: 0;
+   padding: 0;
+   height: 25px;
+}
+
+.profile-page .profile-top .profile-top-left .profile-top-left-right h5,
+h6 {
+   margin: 0;
+   padding: 0;
+}
+
+.profile-page hr {
+   width: 85%;
+   margin-top: -3px;
+   border-color: rgba(156, 156, 156, 0.137);
+}
+
+.profile-page .profile-middle-1 {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 18px;
+   color: rgba(0, 0, 0, 0.699);
+}
+
+.profile-page .profile-middle-1 .item {
+   margin: 0;
+   padding: 0;
+   width: 85%;
+   height: 30px;
+   font-weight: bolder;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   font-size: 17px;
+}
+
+.profile-page .profile-middle-1 .item div {
+   width: 18px;
+   height: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 3px;
+}
+
+.profile-page .profile-middle-1 .item div img {
+   width: 100%;
+}
+
+.profile-page .profile-middle-2 {
+   height: fit-content;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   flex-direction: column;
+   font-size: 17px;
+   color: rgba(0, 0, 0, 0.699);
+}
+
+.profile-page .profile-middle-2 .post_count,
+.follower_count,
+.following_count {
+   width: 85%;
+   display: flex;
+   height: 30px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.profile-page .footer {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.profile-page .footer h5 {
+   margin: 0;
+   padding: 0;
+   margin-top: -1px;
+   width: 85%;
+}
+
+.profile-page .links {
+   height: fit-content;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   flex-direction: column;
+   font-size: 15px;
+   color: rgba(0, 0, 0, 0.699);
+   margin-bottom: 20px;
+}
+
+.profile-page .links .profile-1,
+.profile-2,
+.profile-3 {
+   width: 85%;
+   display: flex;
+   height: 30px;
+   align-items: center;
+   font-size: 17px;
+}
+
+.profile-page .links .profile-1 .link-img{
+   width: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   margin-right: 3px;
+}
+
+.profile-page .links .profile-1 .link-img img{
+  width: 100%;
+}
+
+.profile-page .links .profile-2 .link-img{
+   width: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   margin-right: 3px;
+}
+
+.profile-page .links .profile-2 .link-img img{
+  width: 100%;
+
+}
+
+.profile-page .links .profile-3 .link-img{
+   width: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   margin-right: 3px;
+}
+
+.profile-page .links .profile-3 .link-img img{
+  width: 100%;
+
+}

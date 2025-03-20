@@ -1,0 +1,206 @@
+.posts{
+    display:grid;
+    align-items: center;
+    width: 98%;
+
+}
+.posts .create-post{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.212),
+                -1px -1px 3px rgba(0, 0, 0, 0.212);
+}
+.posts .create-post .text-post{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.posts .create-post .text-post .profile-pic{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: rgba(220, 220, 220, 0.562);
+    cursor: pointer;
+}
+.posts .create-post .text-post .post-text{
+    width: 90%;
+    margin-left: 10px;
+}
+.posts .create-post .text-post .post-text input{
+    width: 93%;
+    height: 40px;
+    border: 0.5px solid black;
+    border: none;
+    background-color: rgba(220, 220, 220, 0.562);
+    border-radius: 30px;
+    padding-left: 20px;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: "Bahnschrift";
+}
+.posts .create-post hr{
+    margin-top: 15px;
+    width: 90%;
+}
+.posts .create-post .multi-media-post{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.posts .create-post .multi-media-post .multi-media{
+    padding-left: 5%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.posts .create-post .multi-media-post .multi-media div{
+    padding-right: 20px;
+}
+.posts .create-post .multi-media-post .post-btn{
+    width: 15%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.posts .create-post .multi-media-post .post-btn h5{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 217, 255);
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.posts .post{
+    margin-bottom: 5px;
+    display: inline;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212),
+                -1px -1px 1px rgba(0, 0, 0, 0.212);
+}
+.posts .post .header{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.posts .post .header .profile-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+.posts .post .header .profile-details .profile-pic{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.562);
+}
+.posts .post .header .profile-details .name-desc{
+    width: 150px;
+    padding-left: 8px;
+    display: grid;
+    align-items:start;
+    justify-content: left;
+}
+.posts .post .header .profile-details .name-desc .name{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    height: 20px;
+}
+.posts .post .header .profile-details .name-desc .details{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    height: 20px;
+ }
+ .posts .post .header .profile-details .name-desc .details h5{
+    font-size: 10px;
+ } 
+.posts .post .header .follow-btn{
+    height: 35px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    background-color: #00d9ff;
+    color: white;
+    border-radius: 20px;
+}
+.posts .post .content{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+.posts .post .content .img{
+    width: 100%;
+    height: fit-content;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+}
+.posts .post .content .img img{
+    width: 100%;
+    border-radius: 8px;
+}
+.posts .post .footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.posts .post .footer .footer-content{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    margin-top: -25px;
+    margin-bottom: 5px;
+}
+.posts .post .footer .footer-content .like-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.posts .post .footer .footer-content .like-btn h5{
+   margin-left: 5px;
+}

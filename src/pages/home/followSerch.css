@@ -1,0 +1,101 @@
+.followAndSerch{
+    width: 95%;
+}
+.serch{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.212),
+                -1px -1px 3px rgba(0, 0, 0, 0.212);
+}
+.serch hr{
+    width: 90%;
+}
+.serch h5{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.serch .users{
+    width: 90%;
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 6%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.serch .users .user{
+    margin-top: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.serch .users .user .pro{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 40px;
+}
+
+.serch .users .user .pro .pro-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    background-color:  rgba(0, 217, 255, 0.541);
+    color: white;
+    border-radius: 50%;
+}
+.serch .users .user .pro .pro-pic h5{
+   margin: 0;
+   padding: 0;
+}
+.serch .users .user .pro .namedetails{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 5px;
+    height: 40px;
+}
+.serch .users .user .pro .namedetails .name{
+    height: 20px;
+}
+.serch .users .user .pro .namedetails .name{
+    height: 20px;
+}
+.serch .users .user .pro .namedetails h5{
+    margin: 0;
+    padding: 0;
+}
+.serch .users .user .pro .namedetails .details{
+   font-size: 12px;
+}
+.serch .users .user .follow-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    border-radius: 30px;
+    width: 60px;
+    background-color:  rgba(0, 217, 255, 0.541);
+    color: white;
+}
+.serch .users .user .follow-btn h5{
+    margin: 0;
+    padding: 0;
+}
