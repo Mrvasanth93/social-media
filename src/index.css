@@ -12,3 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* src/index.css */
+* {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}

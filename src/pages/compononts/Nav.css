@@ -71,11 +71,20 @@
 .nav .option .option-4{
     width: 25px;
 }
+.nav .option .option-4:focus{
+    background-color: transparent;
+    border: 1px solid black;
+}
 .nav .option .option-4 img{
     width: 100%;
 }
+.nav .option .option-4 img:focus{
+   outline: none;
+   background-color: transparent;
+   
+}
 .nav .option .option-1:hover , .option-3:hover{
-    background-color: rgb(0, 217, 255);
+    border: 2px solid rgb(0, 217, 255);
     color: white;
 }
 .sidebar{

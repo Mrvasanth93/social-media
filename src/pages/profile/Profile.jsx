@@ -19,7 +19,9 @@ const Profile = () => {
                 <div className="user">
                     <h4 className="tittle">Profile </h4>
                     <div className="user-profile-top">
-                        <div className="user-profile-img"><img src={img4} alt="" /></div>
+                        <div className="user-profile-img">
+                        <img src={img4} alt="" />
+                        </div>
                         <div className="user-profile-option">
                             <div className="post-count">
                                 <div onClick={()=>updateBottomReder("posts")}><h5>Posts</h5></div>

@@ -18,7 +18,7 @@ function App() {
   return (
     <>
         <Nav />
-        <Routes>
+        <Routes >
           <Route path='/' element={<Home/>}/>
           <Route path='/notification' element={<Notification/>}/>
           <Route path='/profile' element={<Profile/>}/>
